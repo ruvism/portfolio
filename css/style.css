@@ -1,0 +1,112 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Monteserrat', sans-serif;
+    background-image: url('../img/833.jpg');
+}
+
+a {
+    text-decoration: none;
+}
+
+/* FONTS */
+h1 {
+    color: #4F4F4F;
+    font-size: 35px;
+    font-family: 'Coiny', sans-serif;
+}
+
+h2 {
+    color: #bfbfbf;   
+    font-size: 25px;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+h2:hover {
+    color: #bfbfbf;   
+    font-size: 25px;
+    font-family: 'Monteserrat', sans-serif;
+    background-color: cadetblue;
+   }
+
+/* SEÇÃO SOBRE */
+.secao-sobre {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sobre-conteudo__img {
+    margin-top: 80px;
+    max-width: 200px;
+    width: auto;
+    border-radius: 200px;
+}  
+    
+.sobre-conteudo {
+    /* font-family: 'Lato', sans-serif; */
+    text-align: center;
+}
+
+.sobre-conteudo__redes-sociais {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 90px;
+}
+
+
+.sobre-conteudo__redes-sociais img {
+    width: 87px;
+    height: 86px;
+    margin-left: 40px;
+    filter: none;
+    transition: 0.3s;
+}
+
+
+.sobre-conteudo__redes-sociais img:hover {
+    width: 87px;
+    height: 86px;
+    margin-left: 40px;
+    filter: grayscale(70%);
+}
+
+.sobre-conteudo__redes-sociais img:active {
+    width: 87px;
+    height: 86px;
+    margin-left: 40px;
+    filter: grayscale(70%);
+    background-color: #4F4F4F;
+}
+
+@media only screen and (max-width: 800px) {
+    .secao-sobre {
+        background-color: rgb(236, 166, 141);
+    }
+}
+@media only screen and (max-width: 700px) {
+    .secao-sobre {
+        background-color: rgb(177, 34, 177);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .secao-sobre {
+        background-color: rgb(8, 108, 141);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .secao-sobre {
+        background-color: rgb(236, 88, 138);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .secao-sobre {
+        background-color:white;
+    }
+}
